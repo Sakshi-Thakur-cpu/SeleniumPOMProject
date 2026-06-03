@@ -1,0 +1,1 @@
+{"uuid":"de4db186-1bbe-4e72-bcf4-8979f6a0f741","name":"com.qa.opencart.tests.RegisterPageTest","children":["bbce83ae-a294-422c-bc97-fe2e0ff2e3ca"],"befores":[{"name":"regSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1780416602001,"stop":1780416603992}],"afters":[],"start":1780416556001,"stop":1780416608084}
