@@ -1,0 +1,83 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< ToolsQAProject:ToolsQAProject >--------------------
+[INFO] Building ToolsQAProject 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.7.0:tree (default-cli) @ ToolsQAProject ---
+[INFO] ToolsQAProject:ToolsQAProject:jar:0.0.1-SNAPSHOT
+[INFO] +- org.seleniumhq.selenium:selenium-java:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-api:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-chrome-driver:jar:4.22.0:compile
+[INFO] |  |  +- com.google.auto.service:auto-service-annotations:jar:1.1.1:compile
+[INFO] |  |  +- org.seleniumhq.selenium:selenium-chromium-driver:jar:4.22.0:compile
+[INFO] |  |  +- org.seleniumhq.selenium:selenium-json:jar:4.22.0:compile
+[INFO] |  |  \- org.seleniumhq.selenium:selenium-manager:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-devtools-v124:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-devtools-v125:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-devtools-v126:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-devtools-v85:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-edge-driver:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-firefox-driver:jar:4.22.0:compile
+[INFO] |  |  \- org.seleniumhq.selenium:selenium-http:jar:4.22.0:compile
+[INFO] |  |     \- dev.failsafe:failsafe:jar:3.3.2:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-ie-driver:jar:4.22.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-remote-driver:jar:4.22.0:compile
+[INFO] |  |  +- com.google.guava:guava:jar:33.2.1-jre:compile
+[INFO] |  |  |  +- com.google.guava:failureaccess:jar:1.0.2:compile
+[INFO] |  |  |  +- com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava:compile
+[INFO] |  |  |  +- com.google.code.findbugs:jsr305:jar:3.0.2:compile
+[INFO] |  |  |  +- org.checkerframework:checker-qual:jar:3.42.0:compile
+[INFO] |  |  |  +- com.google.errorprone:error_prone_annotations:jar:2.26.1:compile
+[INFO] |  |  |  \- com.google.j2objc:j2objc-annotations:jar:3.0.0:compile
+[INFO] |  |  +- io.opentelemetry.semconv:opentelemetry-semconv:jar:1.25.0-alpha:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-api:jar:1.39.0:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-context:jar:1.39.0:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-exporter-logging:jar:1.39.0:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-sdk-common:jar:1.39.0:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:jar:1.39.0:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:jar:1.39.0:compile
+[INFO] |  |  |  \- io.opentelemetry:opentelemetry-api-incubator:jar:1.39.0-alpha:runtime
+[INFO] |  |  +- io.opentelemetry:opentelemetry-sdk-trace:jar:1.39.0:compile
+[INFO] |  |  +- io.opentelemetry:opentelemetry-sdk:jar:1.39.0:compile
+[INFO] |  |  |  +- io.opentelemetry:opentelemetry-sdk-metrics:jar:1.39.0:compile
+[INFO] |  |  |  \- io.opentelemetry:opentelemetry-sdk-logs:jar:1.39.0:compile
+[INFO] |  |  +- net.bytebuddy:byte-buddy:jar:1.14.17:compile
+[INFO] |  |  \- org.seleniumhq.selenium:selenium-os:jar:4.22.0:compile
+[INFO] |  |     \- org.apache.commons:commons-exec:jar:1.4.0:compile
+[INFO] |  +- org.seleniumhq.selenium:selenium-safari-driver:jar:4.22.0:compile
+[INFO] |  \- org.seleniumhq.selenium:selenium-support:jar:4.22.0:compile
+[INFO] +- org.testng:testng:jar:7.7.0:compile
+[INFO] |  +- org.slf4j:slf4j-api:jar:1.7.36:compile
+[INFO] |  +- com.beust:jcommander:jar:1.82:compile
+[INFO] |  \- org.webjars:jquery:jar:3.6.1:runtime
+[INFO] +- org.apache.poi:poi:jar:3.9:compile
+[INFO] |  \- commons-codec:commons-codec:jar:1.5:compile
+[INFO] +- org.apache.poi:poi-ooxml:jar:3.9:compile
+[INFO] |  \- dom4j:dom4j:jar:1.6.1:compile
+[INFO] |     \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] +- org.apache.poi:poi-ooxml-schemas:jar:3.9:compile
+[INFO] |  \- org.apache.xmlbeans:xmlbeans:jar:2.3.0:compile
+[INFO] |     \- stax:stax-api:jar:1.0.1:compile
+[INFO] +- org.apache.poi:poi-scratchpad:jar:3.9:compile
+[INFO] +- org.apache.poi:ooxml-schemas:jar:1.1:compile
+[INFO] +- org.apache.poi:openxml4j:jar:1.0-beta:compile
+[INFO] |  \- log4j:log4j:jar:1.2.8:compile
+[INFO] +- com.aventstack:extentreports:jar:5.0.8:compile
+[INFO] |  +- io.reactivex.rxjava3:rxjava:jar:3.0.4:compile
+[INFO] |  |  \- org.reactivestreams:reactive-streams:jar:1.0.3:compile
+[INFO] |  +- org.freemarker:freemarker:jar:2.3.30:compile
+[INFO] |  +- org.projectlombok:lombok:jar:1.18.12:compile
+[INFO] |  \- com.google.code.gson:gson:jar:2.8.6:compile
+[INFO] +- io.qameta.allure:allure-testng:jar:2.23.0:compile
+[INFO] |  +- io.qameta.allure:allure-java-commons:jar:2.23.0:compile
+[INFO] |  |  \- io.qameta.allure:allure-model:jar:2.23.0:compile
+[INFO] |  \- io.qameta.allure:allure-test-filter:jar:2.23.0:runtime
+[INFO] \- org.aspectj:aspectjweaver:jar:1.9.19:compile
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.230 s
+[INFO] Finished at: 2026-06-08T22:04:12+05:30
+[INFO] ------------------------------------------------------------------------
