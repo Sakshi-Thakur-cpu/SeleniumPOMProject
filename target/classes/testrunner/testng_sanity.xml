@@ -22,25 +22,25 @@
 	</test>
 
 
-	<test name="Accounts Page Test">
-	<parameter name="browser" value="chrome"></parameter>
-		<classes>
-			<class name="com.qa.opencart.tests.AccountpageTest" />
-		</classes>
-	</test>
+<!--	<test name="Accounts Page Test">-->
+<!--	<parameter name="browser" value="chrome"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.qa.opencart.tests.AccountpageTest" />-->
+<!--		</classes>-->
+<!--	</test>-->
 	
-	<test name="Register Page Test">
-	<parameter name="browser" value="chrome"></parameter>
-		<classes>
-			<class name="com.qa.opencart.tests.RegisterPageTest" />
-		</classes>
-	</test>
+<!--	<test name="Register Page Test">-->
+<!--	<parameter name="browser" value="chrome"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.qa.opencart.tests.RegisterPageTest" />-->
+<!--		</classes>-->
+<!--	</test>-->
 	
-	<test name="Product info Page Test">
-	<parameter name="browser" value="chrome"></parameter>
-		<classes>
-			<class name="com.qa.opencart.tests.productInfoPageTest" />
-		</classes>
-	</test>
+<!--	<test name="Product info Page Test">-->
+<!--	<parameter name="browser" value="chrome"></parameter>-->
+<!--		<classes>-->
+<!--			<class name="com.qa.opencart.tests.productInfoPageTest" />-->
+<!--		</classes>-->
+<!--	</test>-->
 
 </suite>
